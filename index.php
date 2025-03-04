@@ -20,7 +20,7 @@
 <body>
     <nav>
         <div class="nav-container">
-            <a href="index.php" class="logo" style="color:green"><i>MMD</i><span style="color: #e74c3c;">SHOP</span></a>
+            <a href="../php/index.php" class="logo" style="color:green"><i>MMD</i><span style="color: #e74c3c;">SHOP</span></a>
             <img src="Capture d’écran_20-2-2025_141630_www.bing.com.jpeg" alt="logo" width= "40px" height="40px">
             
             
@@ -45,7 +45,7 @@
                 </div>
             </div>
 
-               <a href="pannier.php"><i class="fas fa-shopping-cart"></i></a>
+               <a href="../php/pannier.php"><i class="fas fa-shopping-cart"></i></a>
                 
                 <div class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -68,7 +68,7 @@
     <div class="content">
         <?php 
         // @include'produit.php';
-        require("produit.php") 
+        require("../php/produit.php") 
         ?>
     </div>
     
