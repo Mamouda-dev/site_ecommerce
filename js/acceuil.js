@@ -36,29 +36,51 @@ const hamburger = document.querySelector('.hamburger');
         }
         
     
-        const image =[
+//         const image =[
             
-        ];
-        function changeImage(){
+//         ];
+//         function changeImage(){
 
-        }
-        const images = [
-            "image5.jpeg",
-            "image2.jpg",
-            "image3.jpg",
+//         }
+//         const images = [
+//             "image5.jpeg",
+//             "image2.jpg",
+//             "image3.jpg",
             
-            //"image1.jpeg",
-            // "image4.jpg",
-        ];
+//             //"image1.jpeg",
+//             // "image4.jpg",
+//         ];
 
-let acceuil = 0;
-const imageElement = document.getElementById("changement");
+// let index = 0;
+// const imageElement = document.getElementById("changement");
 
-function changeImage() {
-    acceuil = (acceuil+ 1) % images.length;
-    imageElement.src = '../image/'+images[acceuil];
-}
+// function changeImage() {
+//     index = (index+ 1) % images.length;
+//     imageElement.src = '../image/'+images[index];
+// }
 
-// Changer l'image toutes les 3 secondes
-setInterval(changeImage, 3000);
+// // Changer l'image toutes les 3 secondes
+// setInterval(changeImage, 3000);
 
+// const image =[
+            
+// ];
+// function changeImage(){
+
+// }
+// const images = [
+//     "Publication Instagram Site en ligne coloré.png" ,
+//     "Orange Phoenix Animal Gaming Logo.png",
+
+// ];
+
+// let index = 0;
+// const imageElement = document.getElementById("changement");
+
+// function changeImage() {
+// index = (index + 1) % images.length;
+// imageElement.src = images[index];
+// }
+
+// // Changer l'image toutes les 3 secondes
+// setInterval(changeImage, 3000);

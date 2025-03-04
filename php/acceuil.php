@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar E-commerce</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-   <link rel="stylesheet" href="./css/acceuil.css">
+   <link rel="stylesheet" href="../css/acceuil.css">
 
 
    <!-- <meta charset="UTF-8">
@@ -40,12 +40,12 @@
             <div class="dropdown" id="dropdown">
                 <button onclick="toggleDropdown()"><i class="fas fa-user"></i></button>
                 <div class="dropdown-content" id="dropdownMenu">
-                    <a href="./php/register_form.php">S'inscrire</a>
-                    <a href="./php/login_form.php">Se connecter</a>
+                    <a href="../php/register_form.php">S'inscrire</a>
+                    <a href="../php/login_form.php">Se connecter</a>
                 </div>
             </div>
 
-               <a href="./php/pannier.php"><i class="fas fa-shopping-cart"></i></a>
+               <a href="../php/pannier.php"><i class="fas fa-shopping-cart"></i></a>
                 
                 <div class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -56,7 +56,7 @@
 
     <section >
         <div>
-            <img id="changement" src="./image/image5.jpeg" alt="logo1" width="100%" height="350px" >
+            <img id="changement" src="../image/image5.jpeg" alt="logo1" width="100%" height="350px" >
     </section>
 
     
@@ -64,11 +64,11 @@
         
         <h1>WELCOMME TO MY WEB SITE MMDSHOP</h1>
     </section>
+    
     <div class="content">
         <?php 
-         //@include'./produit.php';
-         require("./php/produit.php") 
-        
+        // @include'produit.php';
+        require("../php/produit.php") 
         ?>
     </div>
     
@@ -100,7 +100,6 @@
         <p>&copy; 2025 E-commerce Site. All rights reserved.</p>
     </div>
 </footer>
-    <script src="./js/acceuil.js"></script>
+    <script src="../js/acceuil.js"></script>
 </body>
-
 </html>

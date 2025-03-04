@@ -1,6 +1,6 @@
 
 <?php
-require("./conn1.php");
+require("./php/conn1.php");
 
 
 // if ($_SERVER["REQUEST_METHOD"]=="POST") {
@@ -68,7 +68,7 @@ try {
 
 
   function afficher(){
-      if(require("./conn1.php")){  
+      if(require("./php/conn1.php")){  
         $req=$conn->prepare("SELECT * FROM produits ORDER BY id DESC");
         $req->execute();
         $data =$req->fetchAll(PDO::FETCH_OBJ);

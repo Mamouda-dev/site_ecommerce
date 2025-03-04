@@ -1,7 +1,7 @@
 
 <?php
-session_start();
-require("./add_product.php");
+ @session_start();
+require("./php/add_product.php");
 $produits=afficher();
 ?>
 <!DOCTYPE html>
